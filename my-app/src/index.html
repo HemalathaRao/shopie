@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+
+</head>
+<body>
+  <app-root></app-root>
+  <script>
+    function openmenu(){
+      document.getElementById("side-menu").style.display="block";
+      document.getElementById("menu-btn").style.display="none";
+      document.getElementById("close-btn").style.display="block";
+    }
+    function closemenu(){
+      document.getElementById("side-menu").style.display="none";
+      document.getElementById("menu-btn").style.display="block";
+      document.getElementById("close-btn").style.display="none";
+    }
+   
+  </script>
+</body>
+</html>
